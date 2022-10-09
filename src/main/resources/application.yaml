@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: "local"
+      on-profile: local
   datasource:
     url: jdbc:postgresql://localhost:5432/postgresql
     username: postgresql
@@ -15,7 +15,7 @@ spring:
 spring:
   config:
     activate:
-      on-profile: "remote"
+      on-profile: remote
   datasource:
     url: jdbc:postgresql://10.140.0.2:5432/postgresql
     username: postgresql
