@@ -1,8 +1,6 @@
 spring:
   profiles:
-    group:
-      "local": "local"
-      "remote": "remote"
+    active: "local"
 ---
 spring:
   config:
